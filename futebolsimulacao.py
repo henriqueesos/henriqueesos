@@ -77,7 +77,8 @@ def simulacao():
 
         print(f'O {casa["nome"]} venceu a partida! Placar: {placarcasa}x{placarfora}')
 
-
+        salvartabela(tabela)
+            
     elif chance_casa < chance_fora:
                 
         placarfora = random.randint (1, 5)
@@ -97,6 +98,8 @@ def simulacao():
         
         print(f'1. {fora["nome"]} 3 Pontos')
         print (f'2. {casa["nome"]} 0 Pontos')
+            
+        salvartabela(tabela)
     else:
 
         placarcasa = random.randint (1, 5)
