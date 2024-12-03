@@ -1,6 +1,5 @@
 
 - @henriqueesos 🇧🇷
 
-studying python, c#, lua, gdscript and game development
+studying python, c#, lua, java and javascript
 
-discord: henriquei3
